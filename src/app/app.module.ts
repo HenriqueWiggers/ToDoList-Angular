@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TarefasModule } from './tarefas';
+import { CadastrarTarefaComponent } from './tarefa/cadastrar-tarefa/cadastrar-tarefa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CadastrarTarefaComponent
   ],
   imports: [
     BrowserModule,
