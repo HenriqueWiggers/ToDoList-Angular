@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Tarefa } from '../shared';
 
 @Component({
   selector: 'app-cadastrar-tarefa',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastrarTarefaComponent implements OnInit {
 
+  tarefa: Tarefa;
   constructor() { }
 
   ngOnInit(): void {
