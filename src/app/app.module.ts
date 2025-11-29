@@ -4,17 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TarefasModule } from './tarefas';
-import { CadastrarTarefaComponent } from './tarefa/cadastrar-tarefa/cadastrar-tarefa.component';
+
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CadastrarTarefaComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     TarefasModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
