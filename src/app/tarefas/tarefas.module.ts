@@ -4,7 +4,7 @@ import { TarefaService } from './shared';
 import { ListarTarefaComponent } from './listar';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { CadastrarTarefaComponent } from './cadastrar-tarefa/cadastrar-tarefa.component';
+import { CadastrarTarefaComponent } from './cadastrar';
 
 
 
